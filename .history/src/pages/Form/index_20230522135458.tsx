@@ -1,0 +1,14 @@
+import { FooterForm } from "../../componets/FooterForm";
+import { TextForm } from "../../componets/TextForm/TextForm";
+import { Container, ContainerContent } from "./styles";
+
+export function Form() {
+  return (
+    <Container>
+      <ContainerContent>
+        {/* <TextForm /> */}
+        <FooterForm />
+      </ContainerContent>
+    </Container>
+  );
+}

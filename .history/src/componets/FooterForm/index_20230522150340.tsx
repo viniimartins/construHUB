@@ -1,0 +1,18 @@
+import { Container, ContainerText, ContainerButton } from "./styles";
+import HubImg from "../../assets/Hub.svg";
+
+export function FooterForm() {
+  return (
+    <Container>
+      <ContainerText>
+        <img src={HubImg} alt="" />
+        <p>Conectando investidores a profissionais da construção civil.</p>
+        <p></p>
+      </ContainerText>
+      <ContainerButton>
+        <input type="text" />
+        <p></p>
+      </ContainerButton>
+    </Container>
+  );
+}

@@ -1,0 +1,22 @@
+import { styled } from "styled-components";
+
+export const Container = styled.div`
+  width: 387px;
+
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 387px;
+    height: 316px;
+  }
+`;
+
+export const ContainerText = styled.div`
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+`;
